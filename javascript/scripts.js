@@ -81,4 +81,5 @@ $(function () {
   $("body").on("click", "#voltarHome", function () {
     $("#header>nav>ul>li:first-child").click();
   });
+  $("[data-tela='home']").click();
 });
