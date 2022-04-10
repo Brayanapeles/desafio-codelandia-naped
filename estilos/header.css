@@ -1,0 +1,58 @@
+/*? Estilizando o Header */
+#header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+}
+#header > span {
+  color: var(--corPrimaria);
+  width: 20%;
+  position: absolute;
+  left: 0%;
+  z-index: 1;
+  font-size: 1.3rem;
+  font-family: "Lexend Deca", sans-serif;
+  user-select: none;
+}
+#header > nav {
+  width: 60%;
+  height: inherit;
+}
+#header > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5rem;
+  gap: 1.5rem;
+}
+#header > nav > ul > li {
+  color: var(--textoCinza);
+  text-decoration: none;
+}
+/* #header > nav > ul > li.ativo, */
+#header > nav > ul > li:hover,
+#header > nav > ul > li.ativo {
+  color: var(--texto) !important;
+  text-decoration: 2px underline var(--corPrimaria) !important;
+  text-underline-position: under !important;
+  cursor: pointer;
+}
+#header > button {
+  border: solid 2px var(--corPrimaria);
+  height: 2rem;
+  min-width: 5rem;
+  width: auto;
+  border-radius: 1rem;
+  background-color: transparent;
+  padding: 0 1rem;
+  color: var(--texto);
+  font-family: "Lexend Deca", sans-serif;
+}
+#header > button:hover {
+  box-shadow: 2px 2px 50px 2px var(--corPrimaria);
+}

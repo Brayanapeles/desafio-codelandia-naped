@@ -1,0 +1,45 @@
+section#telaErro {
+  display: flex !important;
+  flex-direction: row;
+}
+#telaErro > div {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+#telaErro > div:first-child > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+#telaErro > div:first-child > p {
+  color: var(--textoCinza);
+  margin-bottom: 1rem;
+}
+#telaErro > div:first-child > button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  color: var(--texto);
+  background-color: var(--corPrimaria);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+}
+#telaErro > div:last-child {
+  align-items: center;
+}
+#telaErro > div:last-child > div {
+  background: url("../imagens/404.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 26.5rem;
+  height: 13.5rem;
+}
+#telaErro > div:last-child > p {
+  color: var(--textoCinza);
+  text-align: center;
+}

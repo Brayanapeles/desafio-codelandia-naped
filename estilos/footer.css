@@ -1,0 +1,19 @@
+body > footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 2.5rem 0;
+}
+body > footer > span {
+  color: var(--corPrimaria);
+  font-size: 1.3rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+body > footer > p {
+  color: var(--textoCinza);
+  text-align: center;
+}
